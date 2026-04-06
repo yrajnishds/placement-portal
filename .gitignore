@@ -1,0 +1,57 @@
+# 🔹 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# 🔹 Environment variables
+.env
+*.env
+
+# 🔹 Flask specific
+instance/
+.webassets-cache
+
+# 🔹 Database files
+*.db
+*.sqlite3
+
+# 🔹 Migrations (optional - keep if collaborating)
+# migrations/
+
+# 🔹 Logs
+*.log
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# 🔹 Uploads (VERY IMPORTANT)
+app/static/uploads/resumes/*
+!app/static/uploads/resumes/.gitkeep
+
+# 🔹 Compiled/static build
+dist/
+build/
+
+# 🔹 Lock files (depends on usage)
+# uv.lock  (⚠️ keep if using uv seriously)
+# poetry.lock
+
+# 🔹 Testing
+.coverage
+htmlcov/
+
+# 🔹 Secrets
+secrets.json
+config.local.py
